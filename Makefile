@@ -1,8 +1,8 @@
-PROJECT_NAME := xyz Package
+PROJECT_NAME := clickhouse Package
 
 SHELL            := /bin/bash
-PACK             := xyz
-ORG              := pulumi
+PACK             := clickhouse
+ORG              := FreeWaveTechnologies
 PROJECT          := github.com/${ORG}/pulumi-${PACK}
 NODE_MODULE_NAME := @pulumi/${PACK}
 TF_NAME          := ${PACK}
